@@ -7,7 +7,7 @@ const fg = require('api-dylux');
 cmd({
     pattern: 'song',
     desc: 'download songs',
-    react: "🎶",
+    react: "🎵",
     category: 'download',
     filename: __filename
 },
@@ -19,7 +19,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const data = search.videos[0];
         const url = data.url;
 
-        let desc = `*🎼 EMDI ENXKILLER SONG DOWNLOADER . .⚙️*
+        let desc = `*🎼 METHU MD SONG DOWNLOADER . .🎧*
 
 🎼⚙️ TITLE - ${data.title}
 
@@ -36,7 +36,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 *1 Audio With Normal Format*
 *2 Audio With Document Format*
 
-> ᴘᴀᴡᴇʀᴇᴅ ʙʏ DILA & W.U OFC`;
+> ᴘᴀᴡᴇʀᴇᴅ ʙʏ METHU MD`;
 
         const vv = await conn.sendMessage(from, { image: { url: data.thumbnail }, caption: desc }, { quoted: mek });
 
@@ -92,7 +92,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const data = search.videos[0];
         const url = data.url;
 
-        let desc = `*📽️ EMDI ENXKILLER VIDEO DOWNLOADER . .⚙️*
+        let desc = `*📽️ METHU MD VIDEO DOWNLOADER . .⚙️*
 
 📽️⚙️ TITLE - ${data.title}
 
@@ -109,7 +109,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 *1 Video With Normal Format*
 *2 Video With Document Format*
 
-> ᴘᴀᴡᴇʀᴇᴅ ʙʏ DILA & W.U OFC`;
+> ᴘᴀᴡᴇʀᴇᴅ ʙʏ METHU MD`;
 
         const vv = await conn.sendMessage(from, { image: { url: data.thumbnail }, caption: desc }, { quoted: mek });
 
