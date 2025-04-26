@@ -73,11 +73,11 @@ menu[commands[i].category] += `.${commands[i].pattern}\n`;
 let madeMenu = `
 👋 𝐇𝐄𝐋𝐋𝐎, ${pushname}!
 
-✨ 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 EMDI ENXKILLER BOT ✨ 
+✨ 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 METHU MD BOT ✨ 
 ╭─「 ᴄᴏᴍᴍᴀɴᴅꜱ ᴘᴀɴᴇʟ」
 │◈ яυηтιмє * ${runtime(process.uptime())}
-│◈ σωηєя ηαмє * DILA $ W.U OFC
-│◈ σωηєя ηυмвєя * 94760224138
+│◈ σωηєя ηαмє * NADU
+│◈ σωηєя ηυмвєя * 94741185866
 ╰──────────●●►
 ╭──────────●●►
  📥 *𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐌𝐞𝐧𝐮*
@@ -130,7 +130,7 @@ let madeMenu = `
  ${menu.tools}
 ╰───────────●●►
 
-> *BOT BY DILA AND W.U OFC*`
+> *BOT BY METHU MD*`
 
 return await conn.sendMessage(from,{image: {url: `https://i.ibb.co/6RpCBz61/8150.jpg`},caption:madeMenu},{quoted: mek})
 }catch(e){
