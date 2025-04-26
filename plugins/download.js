@@ -11,7 +11,7 @@ let baseUrl;
 })();
 
 
-const yourName = "> ᴘᴀᴡᴇʀᴇᴅ ʙʏ NADU-MD";
+const yourName = "> ᴘᴀᴡᴇʀᴇᴅ ʙʏ METHU MD";
 
 //twitter dl (x)
 cmd({
