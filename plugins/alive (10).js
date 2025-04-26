@@ -132,7 +132,7 @@ let madeMenu = `
 
 > *BOT BY METHU MD*`
 
-return await conn.sendMessage(from,{image: {url: `https://i.ibb.co/6RpCBz61/8150.jpg`},caption:madeMenu},{quoted: mek})
+return await conn.sendMessage(from,{image: {url: `https://i.ibb.co/97QPNJn/6852.jpg`},caption:madeMenu},{quoted: mek})
 }catch(e){
 console.log(e)
 reply(`𝔼𝕣𝕣𝕣𝕠𝕣`)
