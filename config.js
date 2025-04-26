@@ -5,13 +5,13 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "u6YWAaZQ#F7zIIKNZXRGcEQMw_Gal5nNxB3LqhbRzfCEG2r6fdo4",
+SESSION_ID: process.env.SESSION_ID || "your session id",
 ALIVE_IMG : process.env.ALIVE_IMG || "https://i.ibb.co/QvRR1nHz/3462.jpg",
-ALIVE_MSG : process.env.ALIVE_MSG || "*🤖𝐇𝐞𝐲 𝐈'𝐦 💃EMDI ENXKILLER 🤍 𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩 𝐁𝐨𝐭⚡*\n\n*🔔𝐈'𝐦 𝐀𝐥𝐢𝐯𝐞 𝐍𝐨𝐰🎠*\n\n*⚖️CREAT BY NADU THANK FOR USING ME   MY MAIN HOPE IS HELP YOU MY VERSION 0.1 IS COMMING SOON IF YOU WANT DEPLOY ME CONTACT MY OWNER , ENJOY BEST 👌USING ME 😊 prowed by nadu",
+ALIVE_MSG : process.env.ALIVE_MSG || "*🤖𝐇𝐞𝐲 𝐈'𝐦 💃METHU MD 🤍 𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩 𝐁𝐨𝐭⚡*\n\n*🔔𝐈'𝐦 𝐀𝐥𝐢𝐯𝐞 𝐍𝐨𝐰🎠*\n\n*⚖️CREAT BY NADU THANK FOR USING ME   MY MAIN HOPE IS HELP YOU MY VERSION 0.1 IS COMMING SOON IF YOU WANT DEPLOY ME CONTACT MY OWNER , ENJOY BEST 👌USING ME 😊 prowed by nadu",
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // make true if you want auto reply on status 
-AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY EMDI ENXKILLER 🤍*",
+AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY EMDI ENXKILLER 💗*",
 // set the auto reply massage on status reply  
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
@@ -25,7 +25,7 @@ CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "☣,☢,🤴,😈,👾"
 // chose custom react emojis by yourself 
 DELETE_LINKS: process.env.DELETE_LINKS || "true",
 // automatic delete links witho remove member 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "94760224138",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "94741185866",
 // add your bot owner number
 OWNER_NAME: process.env.OWNER_NAME || "methu md ",
 // add bot owner name
